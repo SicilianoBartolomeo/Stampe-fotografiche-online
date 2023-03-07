@@ -1,0 +1,134 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.8.20"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>My Project:  File sorgente Gestione_ordini.h</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td id="projectalign" style="padding-left: 0.5em;">
+   <div id="projectname">My Project
+   &#160;<span id="projectnumber">1.0</span>
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Generato da Doxygen 1.8.20 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+var searchBox = new SearchBox("searchBox", "search",false,'Cerca');
+/* @license-end */
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+$(function() {
+  initMenu('',true,false,'search.php','Cerca');
+  $(document).ready(function() { init_search(); });
+});
+/* @license-end */</script>
+<div id="main-nav"></div>
+</div><!-- top -->
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div class="header">
+  <div class="headertitle">
+<div class="title">Gestione_ordini.h</div>  </div>
+</div><!--header-->
+<div class="contents">
+<a href="_gestione__ordini_8h.html">Vai alla documentazione di questo file.</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;<span class="comment">/*</span></div>
+<div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;<span class="comment"> * Gestione_ordini.h</span></div>
+<div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160;<span class="comment"> *</span></div>
+<div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;<span class="comment"> *  Created on: 28 lug 2020</span></div>
+<div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;<span class="comment"> *      Author: Barty</span></div>
+<div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;<span class="comment"> */</span></div>
+<div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160; </div>
+<div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;<span class="preprocessor">#ifndef GESTIONE_ORDINI_H_</span></div>
+<div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;<span class="preprocessor">#define GESTIONE_ORDINI_H_</span></div>
+<div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160; </div>
+<div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;<span class="keywordtype">void</span> <a class="code" href="_gestione__ordini_8h.html#ac079fc13217668f9bf9ce976fd7c352d">inserimento_ordine</a>(FILE *file_ordini);</div>
+<div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160; </div>
+<div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;<span class="keywordtype">void</span> <a class="code" href="_gestione__ordini_8h.html#ab0b7599dce6b0a272a25457cc2607bc5">stampa_ordini</a>(FILE *file_ordini);</div>
+<div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160; </div>
+<div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;<span class="keywordtype">void</span> <a class="code" href="_gestione__ordini_8h.html#a57e44ee30d92053c9a73d88e8b238593">Realizzazione_ordine</a>(FILE *file_prodotti, FILE* file_clienti, FILE* file_ordini);</div>
+<div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160; </div>
+<div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;<span class="keywordtype">void</span> <a class="code" href="_gestione__ordini_8h.html#a3fd897fcd91446a8880e23740d48ee9e">Gestione_ordini</a>(FILE *file_prodotti, FILE* file_ordini);</div>
+<div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160; </div>
+<div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;<span class="keywordtype">void</span> <a class="code" href="_gestione__ordini_8h.html#a2dbb5a31d94be4043f9e7892b92e14ed">stampa_ordini_gestione</a>(FILE *file_ordini);</div>
+<div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160; </div>
+<div class="line"><a name="l00070"></a><span class="lineno">   70</span>&#160;<span class="keywordtype">short</span> <span class="keywordtype">int</span> <a class="code" href="_gestione__ordini_8h.html#a715618d60632c5f302fed11026b78088">Ricerca_categoria</a>(FILE *file_prodotti);</div>
+<div class="line"><a name="l00071"></a><span class="lineno">   71</span>&#160; </div>
+<div class="line"><a name="l00080"></a><span class="lineno">   80</span>&#160;<span class="keywordtype">void</span> <a class="code" href="_gestione__ordini_8h.html#abf9a40cced236b02307f3a451ed95269">Ricerca_codice_prodotto</a>(FILE *file_ordini);</div>
+<div class="line"><a name="l00081"></a><span class="lineno">   81</span>&#160; </div>
+<div class="line"><a name="l00090"></a><span class="lineno">   90</span>&#160;<span class="keywordtype">void</span> <a class="code" href="_gestione__ordini_8h.html#a87ba2e93a614f1689ef7db9f8088f390">Ricerca_codice_cliente</a>(FILE *file_ordini);</div>
+<div class="line"><a name="l00091"></a><span class="lineno">   91</span>&#160; </div>
+<div class="line"><a name="l00100"></a><span class="lineno">  100</span>&#160;<span class="keywordtype">short</span> <span class="keywordtype">int</span> <a class="code" href="_gestione__ordini_8h.html#a95e16588d517c70e36f4bb5a26171192">RicercaCodiceCliente</a>(FILE *file_ordini);</div>
+<div class="line"><a name="l00101"></a><span class="lineno">  101</span>&#160; </div>
+<div class="line"><a name="l00111"></a><span class="lineno">  111</span>&#160;<span class="keywordtype">void</span> <a class="code" href="_gestione__ordini_8h.html#a6230d3e3646b9606d3cbf3bb15e56634">ordinamento_ordini_quantita</a>(FILE *file_ordini);</div>
+<div class="line"><a name="l00112"></a><span class="lineno">  112</span>&#160; </div>
+<div class="line"><a name="l00122"></a><span class="lineno">  122</span>&#160;<span class="keywordtype">void</span> <a class="code" href="_gestione__ordini_8h.html#a8fd92d8ce14f2410415ab9acecaa7e4a">ordinamento_ordini_valutazione</a>(FILE *file_ordini);</div>
+<div class="line"><a name="l00123"></a><span class="lineno">  123</span>&#160; </div>
+<div class="line"><a name="l00132"></a><span class="lineno">  132</span>&#160;<span class="keywordtype">void</span> <a class="code" href="_gestione__ordini_8h.html#afdea1a2e2349965145655ff715d34a2a">ordinamento_ordini_prezzo</a>(FILE *file_ordini);</div>
+<div class="line"><a name="l00133"></a><span class="lineno">  133</span>&#160; </div>
+<div class="line"><a name="l00143"></a><span class="lineno">  143</span>&#160;<span class="keywordtype">void</span> <a class="code" href="_gestione__ordini_8h.html#a65d7548c43e73212a9bdafb739e3a4a9">quick_sort</a>(<span class="keywordtype">short</span> <span class="keywordtype">int</span> v[], <span class="keywordtype">short</span> <span class="keywordtype">int</span> s[], <span class="keywordtype">int</span> l, <span class="keywordtype">int</span> r);</div>
+<div class="line"><a name="l00144"></a><span class="lineno">  144</span>&#160; </div>
+<div class="line"><a name="l00155"></a><span class="lineno">  155</span>&#160;<span class="keywordtype">int</span> <a class="code" href="_gestione__ordini_8h.html#a4b56c8c710584ca37078e15694c427c3">partizione</a>(<span class="keywordtype">short</span> <span class="keywordtype">int</span> v[], <span class="keywordtype">short</span> <span class="keywordtype">int</span> s[], <span class="keywordtype">int</span> l, <span class="keywordtype">int</span> r);</div>
+<div class="line"><a name="l00156"></a><span class="lineno">  156</span>&#160; </div>
+<div class="line"><a name="l00166"></a><span class="lineno">  166</span>&#160;<span class="keywordtype">void</span> <a class="code" href="_gestione__ordini_8h.html#a9169b5f3470d6fa232a3d382e56aaa1f">quick_sort_float</a>(<span class="keywordtype">float</span> v[], <span class="keywordtype">short</span> <span class="keywordtype">int</span> s[], <span class="keywordtype">int</span> l, <span class="keywordtype">int</span> r);</div>
+<div class="line"><a name="l00167"></a><span class="lineno">  167</span>&#160; </div>
+<div class="line"><a name="l00178"></a><span class="lineno">  178</span>&#160;<span class="keywordtype">int</span> <a class="code" href="_gestione__ordini_8h.html#af6fda7bcd77be07abc9ed608f939eb16">partizione_float</a>(<span class="keywordtype">float</span> v[], <span class="keywordtype">short</span> <span class="keywordtype">int</span> s[], <span class="keywordtype">int</span> l, <span class="keywordtype">int</span> r);</div>
+<div class="line"><a name="l00179"></a><span class="lineno">  179</span>&#160; </div>
+<div class="line"><a name="l00180"></a><span class="lineno">  180</span>&#160;<span class="preprocessor">#endif </span><span class="comment">/* GESTIONE_ORDINI_H_ */</span><span class="preprocessor"></span></div>
+</div><!-- fragment --></div><!-- contents -->
+<div class="ttc" id="a_gestione__ordini_8h_html_abf9a40cced236b02307f3a451ed95269"><div class="ttname"><a href="_gestione__ordini_8h.html#abf9a40cced236b02307f3a451ed95269">Ricerca_codice_prodotto</a></div><div class="ttdeci">void Ricerca_codice_prodotto(FILE *file_ordini)</div><div class="ttdoc">Ricerca Codice Prodotto.</div><div class="ttdef"><b>Definition:</b> Gestione_ordini.c:461</div></div>
+<div class="ttc" id="a_gestione__ordini_8h_html_a57e44ee30d92053c9a73d88e8b238593"><div class="ttname"><a href="_gestione__ordini_8h.html#a57e44ee30d92053c9a73d88e8b238593">Realizzazione_ordine</a></div><div class="ttdeci">void Realizzazione_ordine(FILE *file_prodotti, FILE *file_clienti, FILE *file_ordini)</div><div class="ttdoc">Realizzazione Ordine.</div><div class="ttdef"><b>Definition:</b> Gestione_ordini.c:149</div></div>
+<div class="ttc" id="a_gestione__ordini_8h_html_afdea1a2e2349965145655ff715d34a2a"><div class="ttname"><a href="_gestione__ordini_8h.html#afdea1a2e2349965145655ff715d34a2a">ordinamento_ordini_prezzo</a></div><div class="ttdeci">void ordinamento_ordini_prezzo(FILE *file_ordini)</div><div class="ttdoc">Ordinamento Ordini Prezzo.</div><div class="ttdef"><b>Definition:</b> Gestione_ordini.c:648</div></div>
+<div class="ttc" id="a_gestione__ordini_8h_html_a8fd92d8ce14f2410415ab9acecaa7e4a"><div class="ttname"><a href="_gestione__ordini_8h.html#a8fd92d8ce14f2410415ab9acecaa7e4a">ordinamento_ordini_valutazione</a></div><div class="ttdeci">void ordinamento_ordini_valutazione(FILE *file_ordini)</div><div class="ttdoc">Ordinamento Ordini Valutazione.</div><div class="ttdef"><b>Definition:</b> Gestione_ordini.c:556</div></div>
+<div class="ttc" id="a_gestione__ordini_8h_html_a87ba2e93a614f1689ef7db9f8088f390"><div class="ttname"><a href="_gestione__ordini_8h.html#a87ba2e93a614f1689ef7db9f8088f390">Ricerca_codice_cliente</a></div><div class="ttdeci">void Ricerca_codice_cliente(FILE *file_ordini)</div><div class="ttdoc">Ricerca Codice Cliente.</div><div class="ttdef"><b>Definition:</b> Gestione_ordini.c:498</div></div>
+<div class="ttc" id="a_gestione__ordini_8h_html_a715618d60632c5f302fed11026b78088"><div class="ttname"><a href="_gestione__ordini_8h.html#a715618d60632c5f302fed11026b78088">Ricerca_categoria</a></div><div class="ttdeci">short int Ricerca_categoria(FILE *file_prodotti)</div><div class="ttdoc">Ricerca Categoria.</div><div class="ttdef"><b>Definition:</b> Gestione_ordini.c:393</div></div>
+<div class="ttc" id="a_gestione__ordini_8h_html_a2dbb5a31d94be4043f9e7892b92e14ed"><div class="ttname"><a href="_gestione__ordini_8h.html#a2dbb5a31d94be4043f9e7892b92e14ed">stampa_ordini_gestione</a></div><div class="ttdeci">void stampa_ordini_gestione(FILE *file_ordini)</div><div class="ttdoc">Stampa Ordini.</div><div class="ttdef"><b>Definition:</b> Gestione_ordini.c:374</div></div>
+<div class="ttc" id="a_gestione__ordini_8h_html_a3fd897fcd91446a8880e23740d48ee9e"><div class="ttname"><a href="_gestione__ordini_8h.html#a3fd897fcd91446a8880e23740d48ee9e">Gestione_ordini</a></div><div class="ttdeci">void Gestione_ordini(FILE *file_prodotti, FILE *file_ordini)</div><div class="ttdoc">Realizzazione Ordine.</div><div class="ttdef"><b>Definition:</b> Gestione_ordini.c:291</div></div>
+<div class="ttc" id="a_gestione__ordini_8h_html_a6230d3e3646b9606d3cbf3bb15e56634"><div class="ttname"><a href="_gestione__ordini_8h.html#a6230d3e3646b9606d3cbf3bb15e56634">ordinamento_ordini_quantita</a></div><div class="ttdeci">void ordinamento_ordini_quantita(FILE *file_ordini)</div><div class="ttdoc">Ordinamento Ordini Quantit‡</div><div class="ttdef"><b>Definition:</b> Gestione_ordini.c:602</div></div>
+<div class="ttc" id="a_gestione__ordini_8h_html_af6fda7bcd77be07abc9ed608f939eb16"><div class="ttname"><a href="_gestione__ordini_8h.html#af6fda7bcd77be07abc9ed608f939eb16">partizione_float</a></div><div class="ttdeci">int partizione_float(float v[], short int s[], int l, int r)</div><div class="ttdoc">Partizione.</div><div class="ttdef"><b>Definition:</b> Gestione_ordini.c:746</div></div>
+<div class="ttc" id="a_gestione__ordini_8h_html_ac079fc13217668f9bf9ce976fd7c352d"><div class="ttname"><a href="_gestione__ordini_8h.html#ac079fc13217668f9bf9ce976fd7c352d">inserimento_ordine</a></div><div class="ttdeci">void inserimento_ordine(FILE *file_ordini)</div><div class="ttdoc">Inserimento Ordine.</div><div class="ttdef"><b>Definition:</b> Gestione_ordini.c:15</div></div>
+<div class="ttc" id="a_gestione__ordini_8h_html_a65d7548c43e73212a9bdafb739e3a4a9"><div class="ttname"><a href="_gestione__ordini_8h.html#a65d7548c43e73212a9bdafb739e3a4a9">quick_sort</a></div><div class="ttdeci">void quick_sort(short int v[], short int s[], int l, int r)</div><div class="ttdoc">Quick Sort.</div><div class="ttdef"><b>Definition:</b> Gestione_ordini.c:694</div></div>
+<div class="ttc" id="a_gestione__ordini_8h_html_a9169b5f3470d6fa232a3d382e56aaa1f"><div class="ttname"><a href="_gestione__ordini_8h.html#a9169b5f3470d6fa232a3d382e56aaa1f">quick_sort_float</a></div><div class="ttdeci">void quick_sort_float(float v[], short int s[], int l, int r)</div><div class="ttdoc">Quick Sort Float.</div><div class="ttdef"><b>Definition:</b> Gestione_ordini.c:734</div></div>
+<div class="ttc" id="a_gestione__ordini_8h_html_a95e16588d517c70e36f4bb5a26171192"><div class="ttname"><a href="_gestione__ordini_8h.html#a95e16588d517c70e36f4bb5a26171192">RicercaCodiceCliente</a></div><div class="ttdeci">short int RicercaCodiceCliente(FILE *file_ordini)</div><div class="ttdoc">Ricerca Categoria.</div><div class="ttdef"><b>Definition:</b> Gestione_ordini.c:520</div></div>
+<div class="ttc" id="a_gestione__ordini_8h_html_a4b56c8c710584ca37078e15694c427c3"><div class="ttname"><a href="_gestione__ordini_8h.html#a4b56c8c710584ca37078e15694c427c3">partizione</a></div><div class="ttdeci">int partizione(short int v[], short int s[], int l, int r)</div><div class="ttdoc">Partizione.</div><div class="ttdef"><b>Definition:</b> Gestione_ordini.c:706</div></div>
+<div class="ttc" id="a_gestione__ordini_8h_html_ab0b7599dce6b0a272a25457cc2607bc5"><div class="ttname"><a href="_gestione__ordini_8h.html#ab0b7599dce6b0a272a25457cc2607bc5">stampa_ordini</a></div><div class="ttdeci">void stampa_ordini(FILE *file_ordini)</div><div class="ttdoc">Stampa Ordini.</div><div class="ttdef"><b>Definition:</b> Gestione_ordini.c:120</div></div>
+<!-- start footer part -->
+<hr class="footer"/><address class="footer"><small>
+Generato da&#160;<a href="http://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.8.20
+</small></address>
+</body>
+</html>
