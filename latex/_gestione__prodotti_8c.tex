@@ -1,0 +1,166 @@
+\hypertarget{_gestione__prodotti_8c}{}\doxysection{Riferimenti per il file Gestione\+\_\+prodotti.\+c}
+\label{_gestione__prodotti_8c}\index{Gestione\_prodotti.c@{Gestione\_prodotti.c}}
+{\ttfamily \#include $<$stdio.\+h$>$}\newline
+{\ttfamily \#include $<$stdlib.\+h$>$}\newline
+{\ttfamily \#include $<$ctype.\+h$>$}\newline
+{\ttfamily \#include $<$string.\+h$>$}\newline
+{\ttfamily \#include \char`\"{}Appello1\+Settembre.\+h\char`\"{}}\newline
+{\ttfamily \#include \char`\"{}gestione\+\_\+ordini.\+h\char`\"{}}\newline
+\doxysubsection*{Funzioni}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{_gestione__prodotti_8c_a0609aa2b9d3d47c9d392a2eae4d90f88}{inserimento\+\_\+prodotto}} (F\+I\+LE $\ast$file\+\_\+prodotti)
+\begin{DoxyCompactList}\small\item\em Inserimento Prodotto. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{_gestione__prodotti_8c_a7d27cbf128a663e81d209d52d82a7bca}{stampa\+\_\+prodotti}} (F\+I\+LE $\ast$file\+\_\+prodotti)
+\begin{DoxyCompactList}\small\item\em Stampa Prodotto. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{_gestione__prodotti_8c_aed82c99125f6d637041ce1e452d5a38a}{modifica\+\_\+prodotto}} (F\+I\+LE $\ast$file\+\_\+prodotti)
+\begin{DoxyCompactList}\small\item\em Modifica Prodotto. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{_gestione__prodotti_8c_a585e7b671ee56323b8889e17f1e5b0d4}{cancella\+\_\+prodotto}} (F\+I\+LE $\ast$file\+\_\+prodotti)
+\begin{DoxyCompactList}\small\item\em Cancella Prodotto. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{_gestione__prodotti_8c_a523d5b02b7ee5c5592065a4311e9fa9a}{ordinamento\+\_\+prodotti\+\_\+quantita}} (F\+I\+LE $\ast$file\+\_\+prodotti)
+\begin{DoxyCompactList}\small\item\em Ordinamento Prodotti Quantit‡ \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{_gestione__prodotti_8c_aeb0d716475c3f560f7b0515809b82004}{ordinamento\+\_\+prodotti\+\_\+prezzo}} (F\+I\+LE $\ast$file\+\_\+prodotti)
+\begin{DoxyCompactList}\small\item\em Ordinamento Prodotti Prezzo. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{_gestione__prodotti_8c_a298e79e4f472d21ab598a45929212e1a}{ordinamento\+\_\+prodotti\+\_\+spedizione}} (F\+I\+LE $\ast$file\+\_\+prodotti)
+\begin{DoxyCompactList}\small\item\em Ordinamento Prodotti Spedizione. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{_gestione__prodotti_8c_a7bcd7c8b64b4b11589bc6849874c15eb}{ordinamento\+\_\+prodotti\+\_\+valutazione}} (F\+I\+LE $\ast$file\+\_\+prodotti)
+\begin{DoxyCompactList}\small\item\em Ordinamento Prodotti Valutazione. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Documentazione delle funzioni}
+\mbox{\Hypertarget{_gestione__prodotti_8c_a585e7b671ee56323b8889e17f1e5b0d4}\label{_gestione__prodotti_8c_a585e7b671ee56323b8889e17f1e5b0d4}} 
+\index{Gestione\_prodotti.c@{Gestione\_prodotti.c}!cancella\_prodotto@{cancella\_prodotto}}
+\index{cancella\_prodotto@{cancella\_prodotto}!Gestione\_prodotti.c@{Gestione\_prodotti.c}}
+\doxysubsubsection{\texorpdfstring{cancella\_prodotto()}{cancella\_prodotto()}}
+{\footnotesize\ttfamily void cancella\+\_\+prodotto (\begin{DoxyParamCaption}\item[{F\+I\+LE $\ast$}]{file\+\_\+prodotti }\end{DoxyParamCaption})}
+
+
+
+Cancella Prodotto. 
+
+Permette di effettuare la cancellazione dei campi dei prodotti
+
+
+\begin{DoxyParams}{Parametri}
+{\em file\+\_\+creatore} & puntatore al file dei prodotti \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{_gestione__prodotti_8c_a0609aa2b9d3d47c9d392a2eae4d90f88}\label{_gestione__prodotti_8c_a0609aa2b9d3d47c9d392a2eae4d90f88}} 
+\index{Gestione\_prodotti.c@{Gestione\_prodotti.c}!inserimento\_prodotto@{inserimento\_prodotto}}
+\index{inserimento\_prodotto@{inserimento\_prodotto}!Gestione\_prodotti.c@{Gestione\_prodotti.c}}
+\doxysubsubsection{\texorpdfstring{inserimento\_prodotto()}{inserimento\_prodotto()}}
+{\footnotesize\ttfamily void inserimento\+\_\+prodotto (\begin{DoxyParamCaption}\item[{F\+I\+LE $\ast$}]{file\+\_\+prodotti }\end{DoxyParamCaption})}
+
+
+
+Inserimento Prodotto. 
+
+Permette di inserire e salvare su file i dati di un prodotto
+
+
+\begin{DoxyParams}{Parametri}
+{\em file\+\_\+creatore} & puntatore al file dei prodotti \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{_gestione__prodotti_8c_aed82c99125f6d637041ce1e452d5a38a}\label{_gestione__prodotti_8c_aed82c99125f6d637041ce1e452d5a38a}} 
+\index{Gestione\_prodotti.c@{Gestione\_prodotti.c}!modifica\_prodotto@{modifica\_prodotto}}
+\index{modifica\_prodotto@{modifica\_prodotto}!Gestione\_prodotti.c@{Gestione\_prodotti.c}}
+\doxysubsubsection{\texorpdfstring{modifica\_prodotto()}{modifica\_prodotto()}}
+{\footnotesize\ttfamily void modifica\+\_\+prodotto (\begin{DoxyParamCaption}\item[{F\+I\+LE $\ast$}]{file\+\_\+prodotti }\end{DoxyParamCaption})}
+
+
+
+Modifica Prodotto. 
+
+Permette di effettuare la modifica dei campi dei prodotti
+
+
+\begin{DoxyParams}{Parametri}
+{\em file\+\_\+creatore} & puntatore al file dei prodotti \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{_gestione__prodotti_8c_aeb0d716475c3f560f7b0515809b82004}\label{_gestione__prodotti_8c_aeb0d716475c3f560f7b0515809b82004}} 
+\index{Gestione\_prodotti.c@{Gestione\_prodotti.c}!ordinamento\_prodotti\_prezzo@{ordinamento\_prodotti\_prezzo}}
+\index{ordinamento\_prodotti\_prezzo@{ordinamento\_prodotti\_prezzo}!Gestione\_prodotti.c@{Gestione\_prodotti.c}}
+\doxysubsubsection{\texorpdfstring{ordinamento\_prodotti\_prezzo()}{ordinamento\_prodotti\_prezzo()}}
+{\footnotesize\ttfamily void ordinamento\+\_\+prodotti\+\_\+prezzo (\begin{DoxyParamCaption}\item[{F\+I\+LE $\ast$}]{file\+\_\+prodotti }\end{DoxyParamCaption})}
+
+
+
+Ordinamento Prodotti Prezzo. 
+
+Permette di ordinare e stampare i record presenti nel file prodotti in base al prezzo per pezzo
+
+
+\begin{DoxyParams}{Parametri}
+{\em file\+\_\+creatore} & puntatore al file dei prodotti \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{_gestione__prodotti_8c_a523d5b02b7ee5c5592065a4311e9fa9a}\label{_gestione__prodotti_8c_a523d5b02b7ee5c5592065a4311e9fa9a}} 
+\index{Gestione\_prodotti.c@{Gestione\_prodotti.c}!ordinamento\_prodotti\_quantita@{ordinamento\_prodotti\_quantita}}
+\index{ordinamento\_prodotti\_quantita@{ordinamento\_prodotti\_quantita}!Gestione\_prodotti.c@{Gestione\_prodotti.c}}
+\doxysubsubsection{\texorpdfstring{ordinamento\_prodotti\_quantita()}{ordinamento\_prodotti\_quantita()}}
+{\footnotesize\ttfamily void ordinamento\+\_\+prodotti\+\_\+quantita (\begin{DoxyParamCaption}\item[{F\+I\+LE $\ast$}]{file\+\_\+prodotti }\end{DoxyParamCaption})}
+
+
+
+Ordinamento Prodotti Quantit‡ 
+
+Permette di ordinare e stampare i record presenti nel file prodotti in base alla quantit‡ dei prodotti
+
+
+\begin{DoxyParams}{Parametri}
+{\em file\+\_\+creatore} & puntatore al file dei prodotti \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{_gestione__prodotti_8c_a298e79e4f472d21ab598a45929212e1a}\label{_gestione__prodotti_8c_a298e79e4f472d21ab598a45929212e1a}} 
+\index{Gestione\_prodotti.c@{Gestione\_prodotti.c}!ordinamento\_prodotti\_spedizione@{ordinamento\_prodotti\_spedizione}}
+\index{ordinamento\_prodotti\_spedizione@{ordinamento\_prodotti\_spedizione}!Gestione\_prodotti.c@{Gestione\_prodotti.c}}
+\doxysubsubsection{\texorpdfstring{ordinamento\_prodotti\_spedizione()}{ordinamento\_prodotti\_spedizione()}}
+{\footnotesize\ttfamily void ordinamento\+\_\+prodotti\+\_\+spedizione (\begin{DoxyParamCaption}\item[{F\+I\+LE $\ast$}]{file\+\_\+prodotti }\end{DoxyParamCaption})}
+
+
+
+Ordinamento Prodotti Spedizione. 
+
+Permette di ordinare e stampare i record presenti nel file prodotti in base al costo di spedizione
+
+
+\begin{DoxyParams}{Parametri}
+{\em file\+\_\+creatore} & puntatore al file dei prodotti \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{_gestione__prodotti_8c_a7bcd7c8b64b4b11589bc6849874c15eb}\label{_gestione__prodotti_8c_a7bcd7c8b64b4b11589bc6849874c15eb}} 
+\index{Gestione\_prodotti.c@{Gestione\_prodotti.c}!ordinamento\_prodotti\_valutazione@{ordinamento\_prodotti\_valutazione}}
+\index{ordinamento\_prodotti\_valutazione@{ordinamento\_prodotti\_valutazione}!Gestione\_prodotti.c@{Gestione\_prodotti.c}}
+\doxysubsubsection{\texorpdfstring{ordinamento\_prodotti\_valutazione()}{ordinamento\_prodotti\_valutazione()}}
+{\footnotesize\ttfamily void ordinamento\+\_\+prodotti\+\_\+valutazione (\begin{DoxyParamCaption}\item[{F\+I\+LE $\ast$}]{file\+\_\+prodotti }\end{DoxyParamCaption})}
+
+
+
+Ordinamento Prodotti Valutazione. 
+
+Permette di ordinare e stampare i record presenti nel file prodotti in base alla valutazione
+
+
+\begin{DoxyParams}{Parametri}
+{\em file\+\_\+creatore} & puntatore al file dei prodotti \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{_gestione__prodotti_8c_a7d27cbf128a663e81d209d52d82a7bca}\label{_gestione__prodotti_8c_a7d27cbf128a663e81d209d52d82a7bca}} 
+\index{Gestione\_prodotti.c@{Gestione\_prodotti.c}!stampa\_prodotti@{stampa\_prodotti}}
+\index{stampa\_prodotti@{stampa\_prodotti}!Gestione\_prodotti.c@{Gestione\_prodotti.c}}
+\doxysubsubsection{\texorpdfstring{stampa\_prodotti()}{stampa\_prodotti()}}
+{\footnotesize\ttfamily void stampa\+\_\+prodotti (\begin{DoxyParamCaption}\item[{F\+I\+LE $\ast$}]{file\+\_\+prodotti }\end{DoxyParamCaption})}
+
+
+
+Stampa Prodotto. 
+
+Permette di effettuare la stampa dei campi dei prodotti,
+
+
+\begin{DoxyParams}{Parametri}
+{\em file\+\_\+creatore} & puntatore al file dei prodotti \\
+\hline
+\end{DoxyParams}

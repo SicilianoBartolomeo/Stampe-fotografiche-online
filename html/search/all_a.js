@@ -1,0 +1,8 @@
+var searchData=
+[
+  ['realizzazione_5fordine_56',['Realizzazione_ordine',['../_gestione__ordini_8c.html#a57e44ee30d92053c9a73d88e8b238593',1,'Realizzazione_ordine(FILE *file_prodotti, FILE *file_clienti, FILE *file_ordini):&#160;Gestione_ordini.c'],['../_gestione__ordini_8h.html#a57e44ee30d92053c9a73d88e8b238593',1,'Realizzazione_ordine(FILE *file_prodotti, FILE *file_clienti, FILE *file_ordini):&#160;Gestione_ordini.c']]],
+  ['ricerca_5fcategoria_57',['Ricerca_categoria',['../_gestione__ordini_8c.html#a715618d60632c5f302fed11026b78088',1,'Ricerca_categoria(FILE *file_prodotti):&#160;Gestione_ordini.c'],['../_gestione__ordini_8h.html#a715618d60632c5f302fed11026b78088',1,'Ricerca_categoria(FILE *file_prodotti):&#160;Gestione_ordini.c']]],
+  ['ricerca_5fcodice_5fcliente_58',['Ricerca_codice_cliente',['../_gestione__ordini_8c.html#a87ba2e93a614f1689ef7db9f8088f390',1,'Ricerca_codice_cliente(FILE *file_ordini):&#160;Gestione_ordini.c'],['../_gestione__ordini_8h.html#a87ba2e93a614f1689ef7db9f8088f390',1,'Ricerca_codice_cliente(FILE *file_ordini):&#160;Gestione_ordini.c']]],
+  ['ricerca_5fcodice_5fprodotto_59',['Ricerca_codice_prodotto',['../_gestione__ordini_8c.html#abf9a40cced236b02307f3a451ed95269',1,'Ricerca_codice_prodotto(FILE *file_ordini):&#160;Gestione_ordini.c'],['../_gestione__ordini_8h.html#abf9a40cced236b02307f3a451ed95269',1,'Ricerca_codice_prodotto(FILE *file_ordini):&#160;Gestione_ordini.c']]],
+  ['ricercacodicecliente_60',['RicercaCodiceCliente',['../_gestione__ordini_8c.html#a95e16588d517c70e36f4bb5a26171192',1,'RicercaCodiceCliente(FILE *file_ordini):&#160;Gestione_ordini.c'],['../_gestione__ordini_8h.html#a95e16588d517c70e36f4bb5a26171192',1,'RicercaCodiceCliente(FILE *file_ordini):&#160;Gestione_ordini.c']]]
+];
